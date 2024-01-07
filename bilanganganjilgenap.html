@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // SEQUENCE
+
+        // input
+        // variabel bilangan dengan value 21
+        // keyword let/const
+        // keyword namaVariabel = value;
+        let bilangan = 21;
+        // proses dan output
+        if(bilangan % 2 == 0) {
+            hasil = "bilangan genap"
+        } else {
+            hasil = "bilangan ganjil"
+        }
+
+        // output
+        console.log(hasil)
+
+        // menghitung luas segitiga
+        // input
+        let alas = 12;
+        let tinggi = 15;
+        // proses
+        let hasiL = 1/2 * alas * tinggi;
+
+        // output
+        console.log(hasiL)
+
+        // menghitung keliling lingkaran
+        // input
+        let phi = 3.14;
+        let r = 10;
+        // proses
+        let jawaban =Math.round(phi * 2 * r);
+        // output
+        console.log(jawaban)
+
+        // menghitung luas persegi panjang
+        // input
+        let panjang = 40;
+        let lebar = 25;
+        // proses 
+        let hasilnya = panjang * lebar;
+        // output
+        console.log(hasilnya)
+
+        // menghitung umur
+        // input
+        let tahunlahir = 2008;
+        let tahunsekarang = 2023;
+        // proses
+        let umur = tahunsekarang - tahunlahir;
+        // output
+        console.log(`umur saya sekarang adalah ${umur} tahun`)
+
+        // percabangan atau selection algoritma
+        // hanya kondisi yang bernilai true yag dijalankan atau dieksekusi
+        // input
+        let nilai = 80;
+        // proses
+        if(nilai < 80) {
+            hAsil = 'tidak kompeten'
+        } else if ( nilai >=80) {
+            hAsil = 'kompeten'
+        }
+
+        // output
+        console.log(hAsil)
+
+        // posisi saklar lampu
+        // input
+        let lampu = 1;
+        // proses
+        if ( lampu == 0) {
+            hsl = 'OFF';
+        } else if ( lampu == 1) {
+            hsl = 'ON'; 
+        } else {
+            hsl = 'masukan angka 1 atau 0';
+        }
+        // output
+        console.log (hsl)
+
+        // memeriksa sebuah angka
+        // input
+        let bilangan1 = -4;
+        // proses
+        if (bilangan1 < 0) {
+            console.log ("negatif")
+        } 
+        else (bilangan1 >= 0)
+            console.log ("positif")
+
+        if (bilangan1 % 2 == 0) {
+            console.log ("Bilangan Genap")
+        } 
+        else {
+            console.log ("Bilangan Ganjil")
+        }
+        // output
+        
+
+
+        // program yang akan menerima 3 buah angka integer
+        // input
+        let x = 5;
+        let y = 10;
+        let z  = 15;
+        // proses
+        if (x>y && x>z) {
+            console.log ("x = "+x+" mantap");}
+        else if (z>x && z>y) {
+            console.log ("z = "+z+" keren");}
+        else {
+            console.log ("y = "+y+" mantap banget");}
+        // output
+
+        // harga yang harus dibayar user
+        // input
+        let harga1 = 25000;
+        let harga2 = 95000;
+        let harga3 = 43000;
+        let total = harga1 + harga2 + harga3;
+        // proses
+        if (total > 100000) {
+            diskon = total * (10/100);
+            Total = total - diskon;
+        } else {
+            Total = total;
+        }
+        // output
+        console.log (`harga yang harus dibayarkan adalah Rp ${Total}`);
+
+        // menampilkan gaji lembur
+        // input 
+        let jamlembur = 8;
+        // proses 
+        if (jamlembur < 6) {
+            hAsiL = "gaji lembur Rp 100.000";
+        } else if (jamlembur == 6) {
+            hAsiL = "gaji lembur Rp 200.000";
+        } else if (jamlembur > 6)
+            hAsiL = "gaji lembur Rp 300.000";
+        // output 
+        console.log (hAsiL)
+
+        // menentukan kondisi pintu air
+        // input
+        let air = 650;
+        // proses
+        if (air <= 500) {
+            console.log ("AMAN") 
+        } else if (air > 500 && air < 1600) {
+            console.log ("WASPADA")
+        } else if (air > 600 && air < 1650) {
+            console.log ("SIAGA 2")
+        } else {
+            console.log ("SIAGA 1")
+        }
+        // output
+    </script>
+</body>
+</html>
